@@ -8,9 +8,9 @@ var question5 = 'What is the most popular JavaScript framework in 2019?';
 // Quantion answers
 var question1Answer = 'HTML';
 var question2Answer = 'CSS';
-var question3Answer = 'JavaScript';
-var question4Answer = 'Sass';
-var question5Answer = 'React';
+var question3Answer = 'JAVASCRIPT';
+var question4Answer = 'SASS';
+var question5Answer = 'REACT';
 
 // Initialise counter variables
 var correctAnswers = 0;
@@ -22,7 +22,7 @@ alert('You have answered ' + correctAnswers + ' questions right. You have ' + qu
 
 // Get reponse for question 1 and compare to answer. Then write new state
 var question1Response = prompt(question1);
-if (question1Response === question1Answer) {
+if (question1Response.toUpperCase() === question1Answer) {
   correctAnswers += 1;
   questionsRemaining -= 1;
 } else {
@@ -32,7 +32,7 @@ alert('You have answered ' + correctAnswers + ' questions right. You have ' + qu
 
 // Get reponse for question 2 and compare to answer. Then write new state
 var question2Response = prompt(question2);
-if (question2Response === question2Answer) {
+if (question2Response.toUpperCase() === question2Answer) {
   correctAnswers += 1;
   questionsRemaining -= 1;
 } else {
@@ -42,7 +42,7 @@ alert('You have answered ' + correctAnswers + ' questions right. You have ' + qu
 
 // Get reponse for question 3 and compare to answer. Then write new state
 var question3Response = prompt(question3);
-if (question3Response === question3Answer) {
+if (question3Response.toUpperCase() === question3Answer) {
   correctAnswers += 1;
   questionsRemaining -= 1;
 } else {
@@ -52,7 +52,7 @@ alert('You have answered ' + correctAnswers + ' questions right. You have ' + qu
 
 // Get reponse for question 4 and compare to answer. Then write new state
 var question4Response = prompt(question4);
-if (question4Response === question4Answer) {
+if (question4Response.toUpperCase() === question4Answer) {
   correctAnswers += 1;
   questionsRemaining -= 1;
 } else {
@@ -62,7 +62,7 @@ alert('You have answered ' + correctAnswers + ' questions right. You have ' + qu
 
 // Get reponse for question 5 and compare to answer. Then write new state
 var question5Response = prompt(question5);
-if (question5Response === question5Answer) {
+if (question5Response.toUpperCase() === question5Answer) {
   correctAnswers += 1;
   questionsRemaining -= 1;
 } else {

@@ -1,0 +1,11 @@
+1 - Ask at least 5 questions;
+
+2 - Keep track of number of questions user answered correctly;
+
+3 - Provide final message after quizz indicating the number of questions they got right;
+
+4 - Rank the player
+  5 correct: Gold Crown;
+  3 - 4 correct: Silver Crown;
+  1 - 2 correct: Bronxe Crown;
+  0 correct: No Crown at all.
